@@ -3,8 +3,8 @@ import React from 'react'
 
 const ImageCountSlider = ({index, imageIndex}) => {
   return (
-    <View style={{backgroundColor: index===imageIndex?"#56BB54": "#838383", width: "23%", paddingVertical: 2, borderRadius: 4}}>
-      {/* {console.log("index", index, "imageIndex", imageIndex)} */}
+    <View style={{backgroundColor: index===imageIndex?"#56BB54": "#838383", width: "45%", paddingVertical: 2, borderRadius: 8}}>
+   
     </View>
   )
 }
